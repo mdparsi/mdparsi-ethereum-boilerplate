@@ -1,0 +1,86 @@
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-active::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-open::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-open::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected::after {
+  border-bottom: 2px solid #21bf96 !important;
+}
+
+.ant-menu-horizontal > .ant-menu-item-selected a,
+.ant-menu-horizontal > .ant-menu-item a:hover {
+  color: #21bf96 !important;
+}
+
+.ant-modal-content {
+  overflow: auto;
+  border-radius: 0.5rem;
+  background-color: #d9d9d9;
+
+}
+.ant-table-cell, .ant-table-thead > tr > th{
+
+  text-align: right;
+
+
+}
+.ant-modal-close{
+  left: 0;
+  right: unset;
+}
+
+
+.ant-tabs-tab + .ant-tabs-tab {
+  margin-right: 32px;
+  margin-left: unset;
+}
+
+.ant-dropdown-menu-title-content, .ant-dropdown-menu {
+  text-align: right;
+}
+
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+
+.ant-card-bordered, .ant-card-hoverable, .ant-card-meta-title{
+  background-color: #40a9ff;
+  color: white;
+  font-weight: bolder;
+  border-radius: 0.5em;
+  padding: 3px 4px 0px;
+  text-align: center;
+}
+.ant-card{
+  background:#e6f7ff;
+}
+.ant-modal-header, .ant-image-img{
+  color: white;
+  background-color: #40a9ff;
+
+
+}
+.ant-modal-title, .ant-modal-close-x{
+  color: white;
+}
+
+
+.ant-modal-close-x:hover{
+  color: rgb(198, 17, 243);
+}
+
+
+
+
+.ant-timeline-item-head-custom {
+  background-color: inherit;
+}
+
+.ant-input-prefix {
+  margin-right: 4px;
+  margin-left: 4px;
+}
