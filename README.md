@@ -7,7 +7,7 @@
 > Persian RTL React components and hooks for fast building dApps without running own backend
 
 
-این استارتر ساخته شده به کمک [react-moralis](https://github.com/MoralisWeb3/react-moralis) و [Moralis](https://moralis.io?utm_source=github&utm_medium=readme&utm_campaign=ethereum-boilerplate). همچنین ارائه دهنده زمینه سازی برای دسترسی سریع به `chainId` or `ethAddress`
+این استارتر به کمک [react-moralis](https://github.com/MoralisWeb3/react-moralis) و [Moralis] ساخته شده‌است(https://moralis.io?utm_source=github&utm_medium=readme&utm_campaign=ethereum-boilerplate). همچنین ارائه دهنده زمینه سازی برای دسترسی سریع به `chainId` or `ethAddress`
 
 در این استارتر بسیاری از مؤلفه ها وجود دارد که نیازی به ارائه دهنده فعال Web3 ندارند ، آنها از API Moralis Web3 استفاده می کنند.
 
