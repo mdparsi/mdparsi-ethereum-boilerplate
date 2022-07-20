@@ -16,7 +16,7 @@ const Application = () => {
   //Validate
   if (!APP_ID || !SERVER_URL)
     throw new Error(
-      "شناسه برنامه مرالس یا آدرس سرور پیدا نشد.حتماً پرونده .env خود را تنظیم کنید.",
+      "شناسه برنامه مورالس یا آدرس سرور پیدا نشد.حتماً پرونده .env خود را تنظیم کنید.",
     );
   if (isServerInfo)
     return (

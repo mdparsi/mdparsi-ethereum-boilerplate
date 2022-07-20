@@ -84,3 +84,12 @@
   margin-right: 4px;
   margin-left: 4px;
 }
+
+
+.ant-timeline-item-content {
+  padding-right: 26px;
+  margin-left: unset;
+}
+.ant-typography {
+  line-height: 2rem;
+}

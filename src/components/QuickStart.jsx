@@ -40,7 +40,7 @@ export default function QuickStart({ isServerInfo }) {
           </>
         }
       >
-        <Timeline mode="left" style={styles.timeline}>
+        <Timeline mode="right" style={styles.timeline}>
           <Timeline.Item dot="📄">
             <Text delete style={styles.text}>
               پروژه را از آدرس زیر کلون یا فورک کنید{" "}
@@ -68,20 +68,20 @@ export default function QuickStart({ isServerInfo }) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                مرالس
+                مورالس
               </a>
             </Text>
           </Timeline.Item>
 
           <Timeline.Item dot="💾">
             <Text delete={isServerInfo} style={styles.text}>
-              یک سرور مرالس ایجاد کنید (
+              یک سرور مورالس ایجاد کنید (
               <a
                 href="https://docs.moralis.io/moralis-server/getting-started/create-a-moralis-server"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                آموزش ساختن سرور مرالس
+                آموزش ساختن سرور مورالس
               </a>
               )
             </Text>
@@ -90,18 +90,20 @@ export default function QuickStart({ isServerInfo }) {
           <Timeline.Item dot="🔏">
             <Text delete={isServerInfo} style={styles.text}>
               فایل‌ <Text code>.env.example</Text> را به <Text code>.env</Text>
-              تغییر نام دهید و <Text strong>شناسه </Text> و{" "}
-              <Text strong>آدرس سرور </Text>{" "}
+              تغییر نام دهید و <br />
+              <Text strong>شناسه </Text> و <Text strong>آدرس سرور </Text>{" "}
               <a
                 href="https://moralis.io?utm_source=boilerplatehosted&utm_medium=todo&utm_campaign=mdparsi-ethereum-boilerplate"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 {" "}
-                مرالس{" "}
+                مورالس{" "}
               </a>
-              خود را در فایل جایگزین کنید{" "}
+              خود را در فایل جایگزین کنید :{" "}
             </Text>
+            <br />
+            <br />
             <Text code delete={isServerInfo} style={{ display: "block" }}>
               REACT_APP_MORALIS_APPLICATION_ID = xxxxxxxxxxxx
             </Text>
@@ -120,13 +122,13 @@ export default function QuickStart({ isServerInfo }) {
 
           <Timeline.Item dot="💿">
             <Text delete={isInchDex} style={styles.text}>
-              برای کارایی کامل برنامه مولفه{" "}
+              برای کارایی کامل کامپیوننت{" "}
               <a
                 href="https://moralis.io/plugins/1inch/?utm_source=boilerplatehosted&utm_medium=todo&utm_campaign=mdparsi-ethereum-boilerplate"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                یک اینچ مرالس
+                یک اینچ مورالس
               </a>{" "}
               (اختیاری) کد زیر را به صفحه اصلی برنامه اضافه کنید.
             </Text>
@@ -135,7 +137,9 @@ export default function QuickStart({ isServerInfo }) {
           </Timeline.Item>
 
           <Timeline.Item dot="🚀">
-            <Text style={styles.text}>برنامه را تولید کنید!!!</Text>
+            <Text style={styles.text}>اجرای تولید برنامه!!!</Text>
+            <br />
+            <Text code>npm run build</Text>
           </Timeline.Item>
         </Timeline>
       </Card>
@@ -148,7 +152,7 @@ export default function QuickStart({ isServerInfo }) {
             </>
           }
         >
-          <Timeline mode="left" style={styles.timeline}>
+          <Timeline mode="right" style={styles.timeline}>
             <Timeline.Item dot="💿">
               <Text style={styles.text}>
                 از طریق کد زیر نصب{" "}
@@ -157,7 +161,7 @@ export default function QuickStart({ isServerInfo }) {
                   rel="noopener noreferrer"
                   href="https://www.npmjs.com/package/truffle"
                 >
-                  Truffle | ترافل
+                  ترافل | Truffle
                 </a>{" "}
                 و{" "}
                 <a
@@ -165,24 +169,27 @@ export default function QuickStart({ isServerInfo }) {
                   rel="noopener noreferrer"
                   href="https://www.npmjs.com/package/ganache-cli"
                 >
-                  ganache-cli | گاناش کلاینت
+                  گاناش کلاینت | ganache-cli
                 </a>{" "}
-                را انجام دهید.
+                را نکمیل کنید.
                 <br />
                 <Text code>npm install -g ganache-cli truffle</Text>
               </Text>
             </Timeline.Item>
             <Timeline.Item dot="⚙️">
               <Text style={styles.text}>
-                توسعه زنجیره محلی خود را در پنجره ترمینال دیگری اجرا کنید
+                بلاکچین محلی خود را در پنجره ترمینال دیگری اجرا کنید
+                <br />
                 <br />
               </Text>
               <Text code>npm run devchain</Text>
             </Timeline.Item>
             <Timeline.Item dot="📡">
               <Text style={styles.text}>
-                اجرای اسمارت کانترکت آزمایشی با کد{" "}
-                <Text code>npm run deploy</Text> در پنجره ترمینال دیگری
+                با کد زیر در پنجره ترمینال دیگری به صورت آزمایشی اسمارت کانترکت
+                اجرا کنید <br />
+                <br />
+                <Text code>npm run deploy</Text>
               </Text>
             </Timeline.Item>
             <Timeline.Item dot="✅" style={styles.text}>
@@ -197,11 +204,11 @@ export default function QuickStart({ isServerInfo }) {
           title={
             <>
               📡{"  "}
-              <Text strong> اتصال زنجیره محلی خود به دیتابیس مرالس</Text>
+              <Text strong> اتصال زنجیره محلی خود به دیتابیس مورالس</Text>
             </>
           }
         >
-          <Timeline mode="left" style={styles.timeline}>
+          <Timeline mode="right" style={styles.timeline}>
             <Timeline.Item dot="💿">
               <Text style={styles.text}>
                 با دانلود{" "}
@@ -223,7 +230,7 @@ export default function QuickStart({ isServerInfo }) {
             </Timeline.Item>
             <Timeline.Item dot="💾">
               <Text style={styles.text}>
-                مواردی که در کانترکت میخواهید رسد کنید را اضافه کنید{" "}
+                مواردی که در کانترکت میخواهید رسد کنید را اضافه کنید <br />
                 <Text code>npm run watch:events</Text>
               </Text>
             </Timeline.Item>

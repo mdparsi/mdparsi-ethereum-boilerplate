@@ -141,7 +141,7 @@ const App = ({ isServerInfo }) => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            قالب استارتر ری‌اکت اتریوم
+            قالب استارتر ری‌اکت اتریوم متریال دیزاین پارسی
           </a>
           , هر امتیاز شما دلگرممان میکند
         </Text>
@@ -153,7 +153,7 @@ const App = ({ isServerInfo }) => {
             rel="noopener noreferrer"
             href="https://forum.moralis.io/t/mdparsi-ethereum-boilerplate-questions/3951/29"
           >
-            فروم مرالس پیدا کنید
+            فروم مورالس پیدا کنید
           </a>
         </Text>
 
@@ -164,7 +164,7 @@ const App = ({ isServerInfo }) => {
             rel="noopener noreferrer"
             href="https://moralis.io?utm_source=boilerplatehosted&utm_medium=todo&utm_campaign=ethereum-boilerplat"
           >
-            مرالس
+            مورالس
           </a>
         </Text>
       </Footer>
