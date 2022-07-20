@@ -122,7 +122,7 @@ export default function QuickStart({ isServerInfo }) {
 
           <Timeline.Item dot="💿">
             <Text delete={isInchDex} style={styles.text}>
-              برای کارایی کامل کامپیوننت{" "}
+              برای کارایی کامل کامپوننت{" "}
               <a
                 href="https://moralis.io/plugins/1inch/?utm_source=boilerplatehosted&utm_medium=todo&utm_campaign=mdparsi-ethereum-boilerplate"
                 target="_blank"
