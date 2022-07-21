@@ -11,9 +11,9 @@ function MenuItems() {
       mode="horizontal"
       style={{
         display: "flex",
-        fontSize: "17px",
+        fontSize: "15px",
         fontWeight: "500",
-        width: "100%",
+        width: "60%",
         justifyContent: "center",
       }}
       defaultSelectedKeys={[pathname]}

@@ -8,6 +8,8 @@ import { SelectOutlined } from "@ant-design/icons";
 import { getExplorer } from "helpers/networks";
 import Text from "antd/lib/typography/Text";
 import { connectors } from "./config";
+import { WalletOutlined } from "@ant-design/icons";
+
 const styles = {
   account: {
     height: "42px",
@@ -53,7 +55,9 @@ function Account() {
     return (
       <>
         <div onClick={() => setIsAuthModalVisible(true)}>
-          <p style={styles.text}>احرازهویت</p>
+          <Button type="primary" icon={<WalletOutlined />}>
+            کیف پول
+          </Button>
         </div>
         <Modal
           visible={isAuthModalVisible}
