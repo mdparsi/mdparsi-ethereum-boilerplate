@@ -171,7 +171,7 @@ export default function QuickStart({ isServerInfo }) {
                 >
                   گاناش کلاینت | ganache-cli
                 </a>{" "}
-                را نکمیل کنید.
+                را تکمیل کنید.
                 <br />
                 <Text code>npm install -g ganache-cli truffle</Text>
               </Text>
