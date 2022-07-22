@@ -42,7 +42,7 @@ cd mdparsi-ethereum-boilerplate
 yarn install
 ```
 
-✏  فایل `.env.example` را به `.env` تغییر نام دهید و شناسه `appId` و آدرس سرور `serverUrl` مورالس خود را وارد کنید ([چگونه سرور مرالس خود را راه‌اندازی کنید](https://docs.moralis.io/moralis-server/getting-started/create-a-moralis-server))
+✏  فایل `.env.example` را به `.env` تغییر نام دهید و شناسه `appId` و آدرس سرور `serverUrl` مورالس خود را وارد کنید ([چگونه سرور مورالس خود را راه‌اندازی کنید](https://docs.moralis.io/moralis-server/getting-started/create-a-moralis-server))
 مثال:
 
 ```jsx
