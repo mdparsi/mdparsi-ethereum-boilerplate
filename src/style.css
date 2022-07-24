@@ -1,4 +1,4 @@
- .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover::after,
+ /* .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover::after,
 .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover::after,
 .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active::after,
 .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-active::after,
@@ -9,22 +9,22 @@
   border-bottom: 2px solid #21b4bf !important;
   background: #e6f7ff !important;
 
-}
+} */
 
 
-.ant-menu-horizontal > .ant-menu-item a:hover {
+/* .ant-menu-horizontal > .ant-menu-item a:hover {
   color: #21b4bf !important;
-} 
+}  */
 .ant-menu-horizontal > .ant-menu-item-selected a{
-  background: #e6f7ff !important;
-  color: #21b4bf !important;
+  /* background: #e6f7ff !important;
+  color: #21b4bf !important; */
   padding: 6px 10px !important;
   border-radius: 0.25em;
 }
 .ant-modal-content {
   overflow: auto;
   border-radius: 0.5rem;
-  border: 1px solid #21b4bf;  
+  /* border: 1px solid #21b4bf;   */
 
 }
 .ant-table-cell, .ant-table-thead > tr > th{
@@ -55,19 +55,20 @@
 
 
 .ant-card-bordered, .ant-card-hoverable, .ant-card-meta-title{
-  background-color: #21b4bf;
-  color: white; 
+  /* background-color: #21b4bf;
+  color: white;  */
   font-weight: bolder;
   border-radius: 0.5em;
   padding: 3px 4px 0px;
   text-align: center;
 }
  .ant-card{
-  background:#e6f7ff;
+  /* color: #21b4bf;
+  background:#e6f7ff; */
   border-radius: 0.5em;
-  color: #21b4bf;
+
 } 
- .ant-modal-header, .ant-image-img{
+ /* .ant-modal-header, .ant-image-img{
   background: #21b4bf !important;
   color: #e6f7ff !important;
 
@@ -75,7 +76,7 @@
 } 
 .ant-modal-title, .ant-modal-close-x{
    color: white; 
-}
+} */
 
 
 

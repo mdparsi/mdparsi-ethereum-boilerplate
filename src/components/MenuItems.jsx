@@ -31,7 +31,7 @@ function MenuItems() {
         <NavLink to="/onramp">💵 خرید رمزارز</NavLink>
       </Menu.Item>
       <Menu.Item key="/erc20balance">
-        <NavLink to="/erc20balance">💰 موجودی‌ها</NavLink>
+        <NavLink to="/erc20balance">💰 موجودی‌</NavLink>
       </Menu.Item>
       <Menu.Item key="/erc20transfers">
         <NavLink to="/erc20transfers">💸 انتقال</NavLink>
