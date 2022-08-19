@@ -101,7 +101,7 @@ yarn start
 
 ![Account](https://soroush.tech/img/mdparsi/ethbp/walletconnect.gif)
 
-📒 `<Account />` : احراز هویت آسان از طریق متامسک.
+📒 `<Account />` : احراز هویت آسان از طریق متامسک
 
 ```jsx
 <Account />
