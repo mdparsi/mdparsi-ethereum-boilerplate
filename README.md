@@ -151,7 +151,7 @@ const [address, setAddress] = useState();
 
 ### `<Chains />`
 
-![network](https://user-images.githubusercontent.com/78314301/141116531-7c68002b-039b-4fbb-bda3-4a4d431b71f4.gif)
+![network](https://soroush.tech/img/mdparsi/ethbp/chains.gif)
 
 ⛓ `<Chains />` :تغییر بلاکچین.از بلاکچین های اتریوم ، پالیگان ، بایننس اسمارت چین و آوالانچ پشتیبانی می کند.فقط با بلاکچین‌هایی که قبلاً به کیف پول اضافه شده اند ، کار می کند.راهنمای اضافه کردن بلاکچین جدید(https://docs.moralis.io/moralis-server/web3/web3#addnetwork). به راحتی قابل تنظیم است ، می توانید بلاکچین های دیگر را اضافه کنید
 
