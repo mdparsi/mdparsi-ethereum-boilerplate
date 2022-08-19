@@ -37,7 +37,7 @@ function ERC20Transfers() {
         parseFloat(Moralis.Units.FromWei(value, item.decimals)).toFixed(6),
     },
     {
-      title: "شناسه | Hash تراکنش",
+      title: "Hash تراکنش",
       dataIndex: "transaction_hash",
       key: "transaction_hash",
       render: (hash) => (
