@@ -182,7 +182,7 @@ const [address, setAddress] = useState();
 
 ### `<ERC20Balance />`
 
-![image](https://user-images.githubusercontent.com/78314301/139561267-7a1be577-ad13-4158-a7ea-aa4e7db358a3.png)
+![image](https://soroush.tech/img/mdparsi/ethbp/balance.gif)
 
 💰 `<ERC20Balance />` : موجودی یک آدرس ERC20 را نشان می دهد.از Moralis Web3API استفاده می کند (به ارائه دهنده فعال وب 3 نیاز ندارد).
 
@@ -196,7 +196,7 @@ const [address, setAddress] = useState();
 
 ### `<ERC20Transfers />`
 
-![image](https://user-images.githubusercontent.com/78314301/139561270-7e0964ec-65f9-4909-b7c1-5706a22cca86.png)
+![image](https://soroush.tech/img/mdparsi/ethbp/tara.png)
 
 💸 `<ERC20Transfers />` : نقل و انتقالات ERC20 یک آدرس را نشان می دهد.از moralis web3api استفاده می کند (به ارائه دهنده فعال وب 3 نیاز ندارد).
 
