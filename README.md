@@ -210,7 +210,7 @@ const [address, setAddress] = useState();
 
 ### `<DEX />`
 
-![dex](https://user-images.githubusercontent.com/78314301/141123450-02c2710e-7988-45de-80ad-5fc45d2bccfa.gif)
+![dex](https://soroush.tech/img/mdparsi/ethbp/dex.gif)
 
 💱 `<DEX />` : رابط برای اتصال [افزونه مورالس 1 اینچ](https://moralis.io/plugins/1inch?utm_source=github&utm_medium=readme&utm_campaign=ethereum-boilerplate). این افزونه DeFi / DEX Aggregator 1Inch را با هر پروژه ای که از مورالس استفاده می کند یکپارچه می کند.
 
@@ -242,7 +242,7 @@ const customTokens = {
 
 ### `<Wallet />`
 
-![wallet](https://user-images.githubusercontent.com/78314301/141115062-7152ed11-6167-45fe-a4d9-50e78f051838.gif)
+![wallet](https://soroush.tech/img/mdparsi/ethbp/walletex.gif)
 
 💼 `<Wallet />` : نمونه اتصال برای تعامل با کیف پول.از اجزای موجود در استارتر استفاده می کند: `<Blockie />`, `<Address />`, `<NativeBalance />`, `<AddressInput />`. قابلیت ارسال توکن‌ها را دارد
 
