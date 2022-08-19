@@ -21,13 +21,13 @@ function ERC20Balance(props) {
       ),
     },
     {
-      title: "نام",
+      title: "رمزارز",
       dataIndex: "name",
       key: "name",
       render: (name) => name,
     },
     {
-      title: "علامت",
+      title: "علامت اختصاری",
       dataIndex: "symbol",
       key: "symbol",
       render: (symbol) => symbol,

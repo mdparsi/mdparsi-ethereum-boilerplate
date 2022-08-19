@@ -30,14 +30,14 @@ function ERC20Transfers() {
       render: (to) => getEllipsisTxt(to, 8),
     },
     {
-      title: "مقدار",
+      title: "تعداد",
       dataIndex: "value",
       key: "value",
       render: (value, item) =>
         parseFloat(Moralis.Units.FromWei(value, item.decimals)).toFixed(6),
     },
     {
-      title: "هش",
+      title: "شناسه | Hash تراکنش",
       dataIndex: "transaction_hash",
       key: "transaction_hash",
       render: (hash) => (
