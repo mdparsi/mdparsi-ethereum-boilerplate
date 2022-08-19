@@ -175,6 +175,6 @@ ul.ant-menu-overflow.ant-menu.ant-menu-root.ant-menu-horizontal.ant-menu-light {
 header.ant-layout-header > div > img {
   max-width: unset;
   }
-  .ant-typography s, .ant-typography del {
+  /* .ant-typography s, .ant-typography del {
     text-decoration: none;
-}
+} */
