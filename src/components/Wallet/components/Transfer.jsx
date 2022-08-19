@@ -17,7 +17,7 @@ const styles = {
   input: {
     width: "100%",
     outline: "none",
-    fontSize: "14px",
+    fontSize: "12px",
     whiteSpace: "nowrap",
     overflow: "hidden",
     textverflow: "ellipsis",

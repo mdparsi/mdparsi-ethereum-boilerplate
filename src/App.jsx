@@ -25,7 +25,12 @@ import Ramper from "components/Ramper";
 import MenuItems from "./components/MenuItems";
 import mdpLogo from "mdparsi-logo.png";
 const { Header, Footer } = Layout;
-
+const polygonColor = "#8247e5";
+const polygonColor2 = "#4d2197";
+const etherColor = "#627eea";
+const etherColor2 = "#304bb2";
+const bscColor = "#f3ba2f";
+const bscColor2 = "#d09d21";
 const styles = {
   content: {
     display: "flex",
@@ -55,8 +60,8 @@ const styles = {
     fontSize: "15px",
     fontWeight: "600",
   },
-  etherColor: {
-    background: "#627eea",
+  etherButton: {
+    background: `linear-gradient(to right,  ${etherColor} 20%,${etherColor2} 90%)`,
     padding: "6px 20px ",
     borderWidth: "0px",
     borderStyle: "solid",
@@ -65,8 +70,8 @@ const styles = {
     color: "#fff",
     fontWeight: "700",
   },
-  bscColor: {
-    background: "#f3ba2f",
+  bscButton: {
+    background: `linear-gradient(to right,  ${bscColor} 20%,${bscColor2} 90%)`,
     padding: "6px 20px ",
     borderWidth: "0px",
     borderStyle: "solid",
@@ -75,8 +80,8 @@ const styles = {
     color: "#fff",
     fontWeight: "700",
   },
-  polygonColor: {
-    background: "#8247e5",
+  polygonButton: {
+    background: `linear-gradient(to right,  ${polygonColor} 20%,${polygonColor2} 90%)`,
     padding: "6px 20px ",
     borderWidth: "0px",
     borderStyle: "solid",
@@ -127,19 +132,19 @@ const App = ({ isServerInfo }) => {
             <Route path="/1inch">
               <Tabs type="card" size="large" centered>
                 <Tabs.TabPane
-                  tab={<span style={styles.etherColor}>اتریوم</span>}
+                  tab={<span style={styles.etherButton}>اتریوم</span>}
                   key="1"
                 >
                   <DEX chain="eth" />
                 </Tabs.TabPane>
                 <Tabs.TabPane
-                  tab={<span style={styles.bscColor}>بایننس اسمارت چین</span>}
+                  tab={<span style={styles.bscButton}>بایننس اسمارت چین</span>}
                   key="2"
                 >
                   <DEX chain="bsc" />
                 </Tabs.TabPane>
                 <Tabs.TabPane
-                  tab={<span style={styles.polygonColor}>پالیگان</span>}
+                  tab={<span style={styles.polygonButton}>پالیگان</span>}
                   key="3"
                 >
                   <DEX chain="polygon" />
