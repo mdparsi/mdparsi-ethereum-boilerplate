@@ -165,7 +165,7 @@ const [address, setAddress] = useState();
 
 ### `<CoinPrice />`
 
-![price](https://user-images.githubusercontent.com/78314301/138944095-ac5aebb0-0e69-4b9e-83ec-2a29d0404cbd.gif)
+![price](https://soroush.tech/img/mdparsi/ethbp/coinp.gif)
 
 💵 `<CoinPrice />` : ارزش توکن مشخص شده در تنظیمات را نشان می دهد.از Moralis Web3API استفاده می کند (به ارائه دهنده فعال Web3 احتیاج ندارد).
 
