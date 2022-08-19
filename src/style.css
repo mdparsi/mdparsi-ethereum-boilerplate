@@ -178,3 +178,8 @@ header.ant-layout-header > div > img {
   /* .ant-typography s, .ant-typography del {
     text-decoration: none;
 } */
+@media screen and (max-width: 480px) {
+  header.ant-layout-header > div > img {
+    max-width: 60px;
+    }
+}
