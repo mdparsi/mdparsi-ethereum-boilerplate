@@ -99,7 +99,7 @@ yarn start
 
 ### `<Account />`
 
-![Account](https://mdparsi.site/assets/mdpeth.gif)
+![Account](https://soroush.tech/img/mdparsi/ethbp/walletconnect.gif)
 
 📒 `<Account />` : احراز هویت آسان web3 از طریق متامسک.
 
@@ -109,7 +109,7 @@ yarn start
 
 ### `<Address />`
 
-![address](https://user-images.githubusercontent.com/78314301/138753150-aefb426c-9481-4f41-91a3-d4e4fd424b8f.gif)
+![address](https://soroush.tech/img/mdparsi/ethbp/account.gif)
 
 📨 `<Address />` : آدرس اتریوم با [Blockie](https://www.npmjs.com/package/react-blockies) آواتار.
 
