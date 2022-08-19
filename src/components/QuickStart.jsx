@@ -43,7 +43,7 @@ export default function QuickStart({ isServerInfo }) {
             <Text delete style={styles.text}>
               پروژه را از آدرس زیر کلون یا فورک کنید{" "}
               <a
-                href="https://github.com/soroushtech/mdparsi/mdpweb3#-quick-start"
+                href="https://github.com/mdparsi/mdparsi-ethereum-boilerplate"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -62,7 +62,7 @@ export default function QuickStart({ isServerInfo }) {
             <Text delete={isServerInfo} style={styles.text}>
               ساختن یک حساب کاربری رایگان در{" "}
               <a
-                href="https://moralis.io?utm_source=boilerplatehosted&utm_medium=todo&utm_campaign=mdparsi-ethereum-boilerplate"
+                href="https://moralis.io?utm_source=boilerplatehosted&utm_medium=todo&utm_campaign=ethereum-boilerplate"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -91,7 +91,7 @@ export default function QuickStart({ isServerInfo }) {
               تغییر نام دهید و <br />
               <Text strong>شناسه </Text> و <Text strong>آدرس سرور </Text>{" "}
               <a
-                href="https://moralis.io?utm_source=boilerplatehosted&utm_medium=todo&utm_campaign=mdparsi-ethereum-boilerplate"
+                href="https://moralis.io?utm_source=boilerplatehosted&utm_medium=todo&utm_campaign=ethereum-boilerplate"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -122,7 +122,7 @@ export default function QuickStart({ isServerInfo }) {
             <Text delete={isInchDex} style={styles.text}>
               برای کارایی کامل کامپوننت{" "}
               <a
-                href="https://moralis.io/plugins/1inch/?utm_source=boilerplatehosted&utm_medium=todo&utm_campaign=mdparsi-ethereum-boilerplate"
+                href="https://moralis.io/plugins/1inch/?utm_source=boilerplatehosted&utm_medium=todo&utm_campaign=ethereum-boilerplate"
                 target="_blank"
                 rel="noopener noreferrer"
               >
