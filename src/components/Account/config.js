@@ -26,13 +26,13 @@ export const connectors = [
     priority: 3,
   },
   {
-    title: "مت ولت",
+    title: "مَت ولت",
     icon: MathWallet,
     connectorId: "injected",
     priority: 999,
   },
   {
-    title: "توکن‌پاکت",
+    title: "توکن پاکت",
     icon: TokenPocket,
     connectorId: "injected",
     priority: 999,

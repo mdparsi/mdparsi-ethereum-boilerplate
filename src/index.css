@@ -6,10 +6,10 @@
 
 }
 
-ul[class],
+/* ul[class],
 ol[class] {
   padding: 0;
-}
+} */
 
 body,
 h1,
@@ -27,18 +27,20 @@ dl,
 dd {
   margin: 0;
   font-family: 'Vazirmatn', sans-serif;
-  font-size: 15px;
-  font-weight: bold;
+  /* font-size: 14px; */
+  line-height: 1.5;  
+  color: #00000096;
 }
 
+
 body {
-  direction: rtl;
-  min-height: 100vh;
-  scroll-behavior: smooth;
-  text-rendering: optimizeSpeed;
-  line-height: 1.5;
-  background-color: white;
-  font-size: 14px;
+  /* direction: rtl; */
+  /* min-height: 100vh; */
+  /* scroll-behavior: smooth;
+  text-rendering: optimizeSpeed; */
+  line-height: 1.15em;
+  /* background-color: #ffffff; */
+  font-size: 12px;
   font-family: 'Vazirmatn', sans-serif;
 }
 
@@ -67,4 +69,29 @@ button,
 textarea,
 select {
   font-family: 'Vazirmatn', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* scrollbar*/
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
 }

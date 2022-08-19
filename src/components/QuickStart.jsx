@@ -13,12 +13,10 @@ const styles = {
     fontSize: "16px",
   },
   card: {
-    boxShadow: "0 0.5rem 1.2rem rgb(189 197 209 / 20%)",
-    border: "1px solid #e7eaf3",
-    borderRadius: "0.5rem",
-  },
-  timeline: {
-    marginBottom: "-45px",
+    boxShadow: "8px 8px 39px 0px #005ac233",
+    border: "2px solid #F0F8FF",
+    borderRadius: "20px",
+    marginTop: "30px",
   },
 };
 
@@ -139,6 +137,7 @@ export default function QuickStart({ isServerInfo }) {
           <Timeline.Item dot="🚀">
             <Text style={styles.text}>اجرای تولید برنامه!!!</Text>
             <br />
+            <br />
             <Text code>npm run build</Text>
           </Timeline.Item>
         </Timeline>
@@ -148,7 +147,7 @@ export default function QuickStart({ isServerInfo }) {
           style={styles.card}
           title={
             <>
-              💣 <Text strong>مقدمه راه اندازی زنجیره محلی (اختیاری)</Text>
+              💣 <Text strong>مقدمه راه اندازی بلاکچین خصوصی (اختیاری)</Text>
             </>
           }
         >
@@ -171,14 +170,14 @@ export default function QuickStart({ isServerInfo }) {
                 >
                   گاناش کلاینت | ganache-cli
                 </a>{" "}
-                را تکمیل کنید.
+                را نکمیل کنید.
                 <br />
                 <Text code>npm install -g ganache-cli truffle</Text>
               </Text>
             </Timeline.Item>
             <Timeline.Item dot="⚙️">
               <Text style={styles.text}>
-                بلاکچین محلی خود را در پنجره ترمینال دیگری اجرا کنید
+                بلاکچین خصوصی خود را در پنجره ترمینال دیگری اجرا کنید
                 <br />
                 <br />
               </Text>
@@ -204,7 +203,7 @@ export default function QuickStart({ isServerInfo }) {
           title={
             <>
               📡{"  "}
-              <Text strong> اتصال زنجیره محلی خود به دیتابیس مورالس</Text>
+              <Text strong> اتصال بلاکچین خصوصی خود به دیتابیس مورالس</Text>
             </>
           }
         >
@@ -224,7 +223,8 @@ export default function QuickStart({ isServerInfo }) {
             </Timeline.Item>
             <Timeline.Item dot="⚙️">
               <Text style={styles.text}>
-                دیتابیس مورالس و زنجیره محلی خود را به هم وصل کنید{" "}
+                دیتابیس مورالس و بلاکچین خصوصی خود را به هم وصل کنید
+                <br />
                 <Text code>npm run connect</Text>
               </Text>
             </Timeline.Item>

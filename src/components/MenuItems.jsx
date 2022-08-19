@@ -7,14 +7,13 @@ function MenuItems() {
 
   return (
     <Menu
-      theme="light"
       mode="horizontal"
       style={{
         display: "flex",
-        fontSize: "15px",
-        fontWeight: "500",
+        fontSize: "13px",
+        fontWeight: "400",
         width: "60%",
-        justifyContent: "center",
+        justifyContent: "right",
       }}
       defaultSelectedKeys={[pathname]}
     >
@@ -25,7 +24,7 @@ function MenuItems() {
         <NavLink to="/wallet">👛 کیف پول</NavLink>
       </Menu.Item>
       <Menu.Item key="/1inch">
-        <NavLink to="/1inch">🏦 تبدیل رمزارز</NavLink>
+        <NavLink to="/1inch">🔄 صرافی غیرمتمرکز</NavLink>
       </Menu.Item>
       <Menu.Item key="onramp">
         <NavLink to="/onramp">💵 خرید رمزارز</NavLink>
@@ -34,7 +33,7 @@ function MenuItems() {
         <NavLink to="/erc20balance">💰 موجودی‌</NavLink>
       </Menu.Item>
       <Menu.Item key="/erc20transfers">
-        <NavLink to="/erc20transfers">💸 انتقال</NavLink>
+        <NavLink to="/erc20transfers">💸 تراکنش‌ها</NavLink>
       </Menu.Item>
       <Menu.Item key="/nftBalance">
         <NavLink to="/nftBalance">🖼 انفتی‌ها</NavLink>

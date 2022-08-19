@@ -8,15 +8,19 @@ const styles = {
   item: {
     display: "flex",
     alignItems: "center",
-    height: "42px",
+    height: "36px",
     fontWeight: "500",
-    fontFamily: "Roboto, sans-serif",
-    fontSize: "14px",
-    padding: "0 10px",
+    fontFamily: "Vazirmatn, sans-serif",
+    fontSize: "12px",
+    padding: "0 5px",
   },
   button: {
-    border: "2px solid rgb(231, 234, 243)",
-    borderRadius: "12px",
+    border: "1px solid #13e6bc",
+    // background: "#13132b",
+    background: "#fff",
+    borderRadius: "8px",
+    color: "#6495ed",
+    fontSize: "12px",
   },
 };
 
@@ -28,7 +32,7 @@ const menuItems = [
   },
   {
     key: "0x539",
-    value: "زنجیره محلی",
+    value: "بلاکچین خصوصی",
     icon: <ETHLogo />,
   },
   {
@@ -88,17 +92,17 @@ function Chains() {
   const { isAuthenticated } = useMoralis();
   const [selected, setSelected] = useState({});
 
-  console.log("chain", chain);
+  console.log("بلاکچین", chain);
 
   useEffect(() => {
     if (!chainId) return null;
     const newSelected = menuItems.find((item) => item.key === chainId);
     setSelected(newSelected);
-    console.log("زنجیره فعلی", chainId);
+    console.log("بلاکچین", chainId);
   }, [chainId]);
 
   const handleMenuClick = (e) => {
-    console.log("تغییر به: ", e.key);
+    console.log("تغییر : ", e.key);
     switchNetwork(e.key);
   };
 

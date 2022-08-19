@@ -17,7 +17,7 @@ const styles = {
   input: {
     width: "100%",
     outline: "none",
-    fontSize: "16px",
+    fontSize: "14px",
     whiteSpace: "nowrap",
     overflow: "hidden",
     textverflow: "ellipsis",
@@ -32,7 +32,7 @@ const styles = {
     display: "flex",
     alignItems: "center",
   },
-  textWrapper: { maxWidth: "80px", width: "100%" },
+  textWrapper: { maxWidth: "90px", width: "100%" },
   row: {
     display: "flex",
     alignItems: "center",
@@ -121,17 +121,17 @@ function Transfer() {
     <div style={styles.card}>
       <div style={styles.tranfer}>
         <div style={styles.header}>
-          <h3>انتقال دارایی</h3>
+          <h3>انتقال ارز/انفتی</h3>
         </div>
         <div style={styles.select}>
           <div style={styles.textWrapper}>
-            <Text strong>نشانی:</Text>
+            <Text>آدرس مقصد:</Text>
           </div>
           <AddressInput autoFocus onChange={setReceiver} />
         </div>
         <div style={styles.select}>
           <div style={styles.textWrapper}>
-            <Text strong>میزان:</Text>
+            <Text strong>مبلغ/تعداد:</Text>
           </div>
           <Input
             size="large"
@@ -143,7 +143,7 @@ function Transfer() {
         </div>
         <div style={styles.select}>
           <div style={styles.textWrapper}>
-            <Text strong>دارایی:</Text>
+            <Text>دارایی‌ها:</Text>
           </div>
           <AssetSelector setAsset={setAsset} style={{ width: "100%" }} />
         </div>

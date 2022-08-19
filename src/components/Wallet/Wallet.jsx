@@ -16,11 +16,13 @@ const styles = {
     gap: "5px",
   },
   card: {
-    boxShadow: "0 0.5rem 1.2rem rgb(189 197 209 / 20%)",
-    border: "1px solid #e7eaf3",
+    boxShadow: "rgb(0 90 194 / 20%) 8px 8px 39px 0px",
+    background: "#fff",
+    border: "2px solid rgb(240, 248, 255)",
     borderRadius: "1rem",
     width: "450px",
     fontSize: "16px",
+    color: "#fff",
     fontWeight: "500",
   },
 };

@@ -192,7 +192,7 @@ function DEX({ chain, customTokens = {} }) {
           <div
             style={{ marginBottom: "5px", fontSize: "14px", color: "#434343" }}
           >
-            از
+            رمزارزی که میخواهید مبادله کنید
           </div>
           <div
             style={{
@@ -239,7 +239,7 @@ function DEX({ chain, customTokens = {} }) {
                   style={{ borderRadius: "15px" }}
                 />
               ) : (
-                <span>توکن را انتخاب کنید</span>
+                <span>انتخاب رمزارز</span>
               )}
               <span>{fromToken?.symbol}</span>
               <Arrow />
@@ -258,7 +258,7 @@ function DEX({ chain, customTokens = {} }) {
           <div
             style={{ marginBottom: "5px", fontSize: "14px", color: "#434343" }}
           >
-            به
+            رمزارزی که میخواهید به آن مبادله کنید
           </div>
           <div
             style={{
@@ -315,7 +315,7 @@ function DEX({ chain, customTokens = {} }) {
                   style={{ borderRadius: "15px" }}
                 />
               ) : (
-                <span>توکن را انتخاب کنید</span>
+                <span>انتخاب رمزارز</span>
               )}
               <span>{toToken?.symbol}</span>
               <Arrow />
@@ -334,7 +334,7 @@ function DEX({ chain, customTokens = {} }) {
                 padding: "0 10px",
               }}
             >
-              پیشبینی فی : <Text>{quote?.estimatedGas}</Text>
+              فی پیشبینی شده : <Text>{quote?.estimatedGas}</Text>
             </Text>
             <PriceSwap />
           </div>

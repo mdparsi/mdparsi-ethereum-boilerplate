@@ -30,7 +30,7 @@ const styles = {
   content: {
     display: "flex",
     justifyContent: "center",
-    fontFamily: "Roboto, sans-serif",
+    fontFamily: "Vazirmatn, sans-serif",
     color: "#041836",
     marginTop: "130px",
     padding: "10px",
@@ -43,7 +43,7 @@ const styles = {
     display: "flex",
     justifyContent: "space-between",
     alignItems: "center",
-    fontFamily: "Roboto, sans-serif",
+    fontFamily: "Vazirmatn, sans-serif",
     borderBottom: "2px solid rgba(0, 0, 0, 0.06)",
     padding: "0 10px",
     boxShadow: "0 1px 10px rgb(151 164 175 / 10%)",
@@ -54,6 +54,36 @@ const styles = {
     alignItems: "center",
     fontSize: "15px",
     fontWeight: "600",
+  },
+  etherColor: {
+    background: "#627eea",
+    padding: "6px 20px ",
+    borderWidth: "0px",
+    borderStyle: "solid",
+    borderColor: "#627eea",
+    borderRadius: "0.6rem",
+    color: "#fff",
+    fontWeight: "700",
+  },
+  bscColor: {
+    background: "#f3ba2f",
+    padding: "6px 20px ",
+    borderWidth: "0px",
+    borderStyle: "solid",
+    borderColor: "#f3ba2f",
+    borderRadius: "0.5rem",
+    color: "#fff",
+    fontWeight: "700",
+  },
+  polygonColor: {
+    background: "#8247e5",
+    padding: "6px 20px ",
+    borderWidth: "0px",
+    borderStyle: "solid",
+    borderColor: "#8247e5",
+    borderRadius: "0.6rem",
+    color: "#fff",
+    fontWeight: "700",
   },
 };
 const App = ({ isServerInfo }) => {
@@ -95,14 +125,23 @@ const App = ({ isServerInfo }) => {
               <Wallet />
             </Route>
             <Route path="/1inch">
-              <Tabs defaultActiveKey="1" style={{ alignItems: "center" }}>
-                <Tabs.TabPane tab={<span>اتریوم</span>} key="1">
+              <Tabs type="card" size="large" centered>
+                <Tabs.TabPane
+                  tab={<span style={styles.etherColor}>اتریوم</span>}
+                  key="1"
+                >
                   <DEX chain="eth" />
                 </Tabs.TabPane>
-                <Tabs.TabPane tab={<span>بایننس اسمارت چین</span>} key="2">
+                <Tabs.TabPane
+                  tab={<span style={styles.bscColor}>بایننس اسمارت چین</span>}
+                  key="2"
+                >
                   <DEX chain="bsc" />
                 </Tabs.TabPane>
-                <Tabs.TabPane tab={<span>پالیگان</span>} key="3">
+                <Tabs.TabPane
+                  tab={<span style={styles.polygonColor}>پالیگان</span>}
+                  key="3"
+                >
                   <DEX chain="polygon" />
                 </Tabs.TabPane>
               </Tabs>
@@ -135,24 +174,48 @@ const App = ({ isServerInfo }) => {
         </div>
       </Router>
       <Footer style={{ textAlign: "center" }}>
-        <Text style={{ display: "block" }}>
-          ⭐️لطفا با دادن امتیاز مارا حمایت کنید{" "}
-          <a
+        <Text
+          style={{
+            display: "block",
+            color: "#fff",
+            lineHeight: "2em",
+            fontSize: "14px",
+          }}
+        >
+          <Text
+            style={{
+              fontWeight: "bolder",
+              fontSize: "16px",
+              paddingBottom: "3em",
+              color: "#14b8f4",
+            }}
             href="https://github.com/mdparsi/mdparsi-ethereum-boilerplate/"
             target="_blank"
             rel="noopener noreferrer"
           >
             قالب استارتر ری‌اکت اتریوم متریال دیزاین پارسی
+          </Text>
+          <br />
+          هر امتیاز شما باعث دلگرمی و کمکی بزرگ است که ادامه ساخت و کار روی
+          پروژه‌های رایگان و متن باز را،
+          <br />
+          برای من و دیگر برنامه نویسان میسر میسازد!
+          <br />
+          <a
+            href="https://github.com/mdparsi/mdparsi-ethereum-boilerplate/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            ⭐️ لطفا جهت امتیازدهی و حمایت از پروژه کلید کنید. {""}
           </a>
-          , هر امتیاز شما دلگرممان میکند
         </Text>
 
         <Text style={{ display: "block" }}>
-          🙋 جواب پرسشهای خود را در {""}
+          🙋 جواب پرسشهای خود درباره کار با مورالس را در {""}
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://forum.moralis.io/t/mdparsi-ethereum-boilerplate-questions/3951/29"
+            href="https://forum.moralis.io/t/ethereum-boilerplate-questions/3951/29"
           >
             فروم مورالس پیدا کنید
           </a>
@@ -163,9 +226,9 @@ const App = ({ isServerInfo }) => {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://moralis.io?utm_source=boilerplatehosted&utm_medium=todo&utm_campaign=ethereum-boilerplat"
+            href="https://mdparsi.site/web3/mdparsi-ethereum-boilerplate"
           >
-            مورالس
+            متریال دیزاین پارسی
           </a>
         </Text>
       </Footer>

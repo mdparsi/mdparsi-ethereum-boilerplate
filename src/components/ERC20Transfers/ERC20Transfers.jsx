@@ -18,13 +18,13 @@ function ERC20Transfers() {
       render: (token) => getEllipsisTxt(token, 8),
     },
     {
-      title: "از",
+      title: "ارسال کننده",
       dataIndex: "from_address",
       key: "from_address",
       render: (from) => getEllipsisTxt(from, 8),
     },
     {
-      title: "به",
+      title: "دریافت کننده",
       dataIndex: "to_address",
       key: "to_address",
       render: (to) => getEllipsisTxt(to, 8),
@@ -55,7 +55,7 @@ function ERC20Transfers() {
   let key = 0;
   return (
     <div style={{ width: "65vw", padding: "15px" }}>
-      <h1>💸 انتقال ERC20</h1>
+      <h1>💸 تراکنش‌ها</h1>
       <Skeleton loading={!ERC20Transfers}>
         <Table
           dataSource={ERC20Transfers}

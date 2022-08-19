@@ -54,12 +54,8 @@ function Account() {
   if (!isAuthenticated || !account) {
     return (
       <>
-        <div>
-          <Button
-            onClick={() => setIsAuthModalVisible(true)}
-            type="primary"
-            icon={<WalletOutlined />}
-          >
+        <div onClick={() => setIsAuthModalVisible(true)}>
+          <Button type="primary" icon={<WalletOutlined />}>
             کیف پول
           </Button>
         </div>
@@ -168,7 +164,7 @@ function Account() {
               rel="noreferrer"
             >
               <SelectOutlined style={{ marginLeft: "5px" }} />
-              نمایش توکن در بلاکچین
+              نمایش توکن در شبکه
             </a>
           </div>
         </Card>

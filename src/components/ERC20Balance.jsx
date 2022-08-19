@@ -40,7 +40,7 @@ function ERC20Balance(props) {
         parseFloat(Moralis?.Units?.FromWei(value, item.decimals)).toFixed(6),
     },
     {
-      title: "آدرس",
+      title: "آدرس توکن",
       dataIndex: "token_address",
       key: "token_address",
       render: (address) => getEllipsisTxt(address, 5),
@@ -49,7 +49,7 @@ function ERC20Balance(props) {
 
   return (
     <div style={{ width: "65vw", padding: "15px" }}>
-      <h1>💰 موجودی آدرس</h1>
+      <h1>💰 موجودی آدرس توکن</h1>
       <Skeleton loading={!assets}>
         <Table
           dataSource={assets}
