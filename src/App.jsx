@@ -231,7 +231,7 @@ const App = ({ isServerInfo }) => {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://mdparsi.site/web3/mdparsi-ethereum-boilerplate"
+            href="https://mdparsi.site/"
           >
             متریال دیزاین پارسی
           </a>
