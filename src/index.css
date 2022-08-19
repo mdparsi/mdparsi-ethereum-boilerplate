@@ -95,3 +95,8 @@ select {
 ::-webkit-scrollbar-thumb {
   border-radius: 5px;
 }
+@media screen and (max-width: 720px) {
+  section.ant-layout > div > div {
+      flex-wrap: wrap !important;
+  }
+}

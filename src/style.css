@@ -165,3 +165,16 @@ ul.ant-menu-overflow.ant-menu.ant-menu-root.ant-menu-horizontal.ant-menu-light {
 ::-webkit-scrollbar-thumb:hover {
   background: #004080; 
 }
+
+@media screen and (max-width: 720px) {
+  section.ant-layout > div > div {
+    flex-wrap: wrap;
+  }
+
+}
+header.ant-layout-header > div > img {
+  max-width: unset;
+  }
+  .ant-typography s, .ant-typography del {
+    text-decoration: none;
+}
