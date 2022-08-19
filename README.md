@@ -5,7 +5,7 @@
 > کامپوننت ها و هوک‌های فارسی و راستچین ری‌اکت برای ساختن سریع انواع برنامه غیرمتمرکز (Dapp)  بدون نیاز به کد نویسی بک اند
 > Persian RTL React components and hooks for fast building dApps without running own backend
 
-🚀DEMO: https://mdparsi.site/web3/mdparsi-ethereum-boilerplate
+🚀DEMO: https://mdparsi.site
 
 این استارتر به کمک [react-moralis](https://github.com/MoralisWeb3/react-moralis) و [Moralis](https://moralis.io?utm_source=github&utm_medium=readme&utm_campaign=ethereum-boilerplate) ساخته شده است. همچنین ارائه دهنده زمینه سازی برای دسترسی سریع به `chainId` یا `ethAddress`
 
