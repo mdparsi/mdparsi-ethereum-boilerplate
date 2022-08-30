@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "name": "@mdparsi/mdparsi-ethereum-boilerplatee",
+  "name": "@mdparsi/mdparsi-ethereum-boilerplate",
   "description": "Persian RTL React components and hooks for fast building dApps without running own backend",
   "author": {
     "name": "Soroush Soltani",
